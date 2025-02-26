@@ -554,6 +554,26 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-\[800px\] {
+  left: 800px;
+}
+
+.top-\[120px\] {
+  top: 120px;
+}
+
+.z-\[\+1\] {
+  z-index: +1;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -570,36 +590,16 @@ video {
   width: 1515px;
 }
 
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[292px\] {
-  width: 292px;
-}
-
-.w-\[262px\] {
-  width: 262px;
-}
-
-.w-\[232px\] {
-  width: 232px;
-}
-
-.w-\[242px\] {
-  width: 242px;
-}
-
-.w-\[252px\] {
-  width: 252px;
-}
-
 .w-\[272px\] {
   width: 272px;
 }
 
-.w-\[92px\] {
-  width: 92px;
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .justify-center {
@@ -610,24 +610,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .gap-\[20px\] {
   gap: 20px;
 }
 
 .gap-\[50px\] {
   gap: 50px;
-}
-
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[150px\] {
-  gap: 150px;
-}
-
-.gap-\[100px\] {
-  gap: 100px;
 }
 
 .border-\[1px\] {
@@ -639,12 +631,13 @@ video {
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
 
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.bg-\[\#F6F8F7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 248 247 / var(--tw-bg-opacity, 1));
 }
 
-.p-\[10px\] {
-  padding: 10px;
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-\[20px\] {
@@ -656,26 +649,26 @@ video {
   padding-bottom: 20px;
 }
 
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-\[30px\] {
-  font-size: 30px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -686,21 +679,13 @@ video {
   font-weight: 600;
 }
 
-.text-orange-500 {
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[gra\] {
-  color: gra;
-}
-
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
 }
 
